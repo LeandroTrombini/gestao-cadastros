@@ -7,11 +7,11 @@ import Footer from './Components/Footer'
 import ClientScreen from './Pages/ClientScreen'
 import Home from './Pages/Home';
 import ProductScreen from './Pages/ProductScreen'
-
+   
 export default function Routes() {
     return (
         <BrowserRouter>
-         <Header />
+         <Header />      
             <div className="browser-container">
                
                 <Switch>
