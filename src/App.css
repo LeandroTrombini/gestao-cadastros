@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body {
+   overflow: hidden
+  
+   
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;  
+}
+
+.container {
+    width: min(90vw, 800px); 
+    margin: auto;
+    margin-top: 20px;
+    scroll-behavior: smooth;
+    
+}
+
+
+
+.btn-add {
+    width: 200px;
+    height: 2.5rem;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0088a9;
+    margin-top:15px;
+}
+
+.btn-add:hover,
+.btn-add:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+    cursor: pointer;
+    background: #0e9fdd;
+}   
+
+.browser-container {
+    /*min-height: 100vh;  */
+    width: 100vw; 
+    overflow: auto;
+    height:100%;
+}
+
+
+
+
+.img-logo {
+    max-width:300px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    margin: 10% 30% 0 30%;
+}
+
+.img-linkedin{
+    height: 15px;
+  
+    margin-right: 10px;
+  
+}
+
+.img-github{
+    height: 15px;
+  
+}
+@media only screen and (max-width: 600px) {
+    .browser-container {
+        flex-direction: column;
+    }
+
+    .form-container form {
+        font-size:0.8em;
+    }
+
+    .table-container {
+        width: 100%;
+        font-size:0.8em;
+    }
+
+    .footer p {
+        font-size: 0.8em;
+    }
+
+  
+
+
+}
+@media only screen and (max-width: 900px) {
+    .form-container {
+        display: flex;
+        flex-direction: row;
+    }
+}
