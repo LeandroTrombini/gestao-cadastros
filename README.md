@@ -1,4 +1,4 @@
-# Degion Computadores
+# Produto
 
 Sistema criado para o desafio #2 realizado durante o programa Hiring Coders.
 
